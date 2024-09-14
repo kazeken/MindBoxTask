@@ -30,7 +30,7 @@ namespace MindBoxTask
             return Math.Sqrt(p * (p - SideA) * (p - SideB) * (p - SideC));
         }
 
-        public bool IsRightTriangle()
+        public bool IsRectangularTriangle()
         {
             if (SideA <= 0 || SideB <= 0 || SideC <= 0)
                 throw new ArgumentException("Стороны должны быть позитивными.");

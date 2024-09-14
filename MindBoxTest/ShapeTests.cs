@@ -24,14 +24,14 @@ namespace MindBoxTest
         public void IsRightTriangle_WithRightTriangle_ReturnsTrue()
         {
             var triangle = new Triangle(3, 4, 5);
-            Assert.IsTrue(triangle.IsRightTriangle());
+            Assert.IsTrue(triangle.IsRectangularTriangle());
         }
 
         [Test]
         public void IsRightTriangle_WithNonRightTriangle_ReturnsFalse()
         {
             var triangle = new Triangle(3, 4, 6);
-            Assert.IsFalse(triangle.IsRightTriangle());
+            Assert.IsFalse(triangle.IsRectangularTriangle());
         }
     }
 }

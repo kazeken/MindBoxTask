@@ -35,7 +35,7 @@ class Program
 
         if (shape is Triangle triangle)
         {
-            Console.WriteLine($"Треугольник прямоугольный: {triangle.IsRightTriangle()}");
+            Console.WriteLine($"Треугольник прямоугольный: {triangle.IsRectangularTriangle()}");
         }
     }
 }
