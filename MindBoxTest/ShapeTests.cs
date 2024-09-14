@@ -9,7 +9,7 @@ namespace MindBoxTest
         {
             var circle = new Circle(5);
             double expectedArea = Math.PI * 25;
-            Assert.AreEqual(expectedArea, circle.CalculateArea(), 1e-10);
+            Assert.AreEqual(expectedArea, circle.CalculateArea());
         }
 
         [Test]
@@ -17,7 +17,7 @@ namespace MindBoxTest
         {
             var triangle = new Triangle(3, 4, 5);
             double expectedArea = 6;
-            Assert.AreEqual(expectedArea, triangle.CalculateArea(), 1e-10);
+            Assert.AreEqual(expectedArea, triangle.CalculateArea());
         }
 
         [Test]
